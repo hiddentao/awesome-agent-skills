@@ -1,8 +1,8 @@
 # Awesome Agent Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Agent Skills and Claude Code slash commands by [hiddentao](https://github.com/hiddentao).
+> Agent Skills and Claude Code slash commands written and published by [hiddentao](https://github.com/hiddentao).
 
-An [Agent Skill](https://agentskills.io) is a folder with a `SKILL.md` file and, often, reference files and scripts. A coding agent such as Claude Code, Codex CLI, Cursor or GitHub Copilot reads the skill when a task needs it.
+hiddentao wrote every skill and command on this list, except where an entry says otherwise. An [Agent Skill](https://agentskills.io) is a folder with a `SKILL.md` file and, often, reference files and scripts. A coding agent such as Claude Code, Codex CLI, Cursor or GitHub Copilot reads the skill when a task needs it.
 
 ## Contents
 
@@ -20,7 +20,7 @@ An [Agent Skill](https://agentskills.io) is a folder with a `SKILL.md` file and,
 
 ### Game design
 
-- [sakurai](https://github.com/hiddentao/sakurai-skill-en) - Game-making principles from all 257 main episodes of Masahiro Sakurai's YouTube series "Masahiro Sakurai on Creating Games", for planning, reviewing and fixing a game. English port of [kociden/sakurai-skill](https://github.com/kociden/sakurai-skill).
+- [sakurai](https://github.com/hiddentao/sakurai-skill-en) - Game-making principles from all 257 main episodes of Masahiro Sakurai's YouTube series "Masahiro Sakurai on Creating Games", for planning, reviewing and fixing a game. Translated into English by hiddentao from [kociden/sakurai-skill](https://github.com/kociden/sakurai-skill), which kociden wrote.
 
 ### Web development
 
