@@ -7,40 +7,33 @@ hiddentao wrote every skill and command on this list, except where an entry says
 ## Contents
 
 - [Skills](#skills)
-  - [Game design](#game-design)
-  - [Web development](#web-development)
+  - [3D graphics and games](#3d-graphics-and-games)
+  - [Code review and documentation](#code-review-and-documentation)
+  - [Working with agents](#working-with-agents)
   - [Self-hosting](#self-hosting)
-  - [Code review](#code-review)
-  - [Documentation](#documentation)
-  - [Skill authoring](#skill-authoring)
 - [Slash commands](#slash-commands)
 - [Installing](#installing)
 
 ## Skills
 
-### Game design
+### 3D graphics and games
 
+- [tripo3d-blender](https://github.com/hiddentao/tripo3d-blender-skill) - Make a base 3D model with Tripo3D from a prompt or a picture, then finish it in Blender: size, facing, cleanup, repairs, repainting, texture size, levels of detail and GLB export.
+- [3d-web-scene-performance](https://github.com/hiddentao/3d-web-scene-performance-skill) - Build 3D scenes for web pages that run at 60 fps on phones, tablets and desktops, show something within five seconds on a slow connection, and fall back to a normal page if the renderer fails.
 - [sakurai](https://github.com/hiddentao/sakurai-skill-en) - Game-making principles from all 257 main episodes of Masahiro Sakurai's YouTube series "Masahiro Sakurai on Creating Games", for planning, reviewing and fixing a game. Translated into English by hiddentao from [kociden/sakurai-skill](https://github.com/kociden/sakurai-skill), which kociden wrote.
 
-### Web development
+### Code review and documentation
 
-- [3d-web-scene-performance](https://github.com/hiddentao/3d-web-scene-performance-skill) - Build 3D scenes for web pages that run at 60 fps on phones, tablets and desktops, show something within five seconds on a slow connection, and fall back to a normal page if the renderer fails.
+- [review-rubric](https://github.com/hiddentao/claude-code-plugins/tree/main/plugins/code-review/skills/review-rubric) - Review dimensions, finding format, severity scale and verification steps for adversarial review of code and documentation. Part of the `code-review` plugin.
+- [explore-code](https://github.com/hiddentao/claude-code-plugins/tree/main/plugins/docs/skills/explore-code) - Checklist for exploring a codebase: structure, conventions, libraries, error handling, logging, performance, security, build, scripts and tests. Part of the `docs` plugin.
+
+### Working with agents
+
+- [writing-skill-files](https://github.com/hiddentao/claude-code-plugins/tree/main/plugins/skill-files/skills/writing-skill-files) - The 28 rules for writing a skill file that an AI agent can follow. They cover structure, decision rules, named anti-patterns, code contracts, freshness and testing. Part of the `skill-files` plugin.
 
 ### Self-hosting
 
 - [chatwoot-self-hosting](https://github.com/hiddentao/chatwoot-self-hosting-skill) - Deploy, harden and run a self-hosted Chatwoot installation. The admin console stays private, the widget script is patched, and each chat widget works only on the sites allowed to embed it.
-
-### Code review
-
-- [review-rubric](https://github.com/hiddentao/claude-code-plugins/tree/main/plugins/code-review/skills/review-rubric) - Review dimensions, finding format, severity scale and verification steps for adversarial review of code and documentation. Part of the `code-review` plugin.
-
-### Documentation
-
-- [explore-code](https://github.com/hiddentao/claude-code-plugins/tree/main/plugins/docs/skills/explore-code) - Checklist for exploring a codebase: structure, conventions, libraries, error handling, logging, performance, security, build, scripts and tests. Part of the `docs` plugin.
-
-### Skill authoring
-
-- [writing-skill-files](https://github.com/hiddentao/claude-code-plugins/tree/main/plugins/skill-files/skills/writing-skill-files) - The 28 rules for writing a skill file that an AI agent can follow. They cover structure, decision rules, named anti-patterns, code contracts, freshness and testing. Part of the `skill-files` plugin.
 
 ## Slash commands
 
@@ -55,7 +48,7 @@ These work in Claude Code only.
 
 Each skill repo explains how to install its skill in each tool. In short, copy the skill folder into the folder where your agent looks for skills, for example `~/.claude/skills/` for Claude Code.
 
-The `3d-web-scene-performance` and `chatwoot-self-hosting` repos are also Claude Code plugin marketplaces. For example:
+The `tripo3d-blender`, `3d-web-scene-performance` and `chatwoot-self-hosting` repos are also Claude Code plugin marketplaces. For example:
 
 ```bash
 claude plugin marketplace add hiddentao/3d-web-scene-performance-skill
