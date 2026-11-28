@@ -18,7 +18,7 @@ hiddentao wrote every skill and command on this list, except where an entry says
 
 ### 3D graphics and games
 
-- [tripo3d-blender](https://github.com/hiddentao/tripo3d-blender-skill) - Make a base 3D model with Tripo3D from a prompt or a picture, then finish it in Blender: size, facing, cleanup, repairs, repainting, texture size, levels of detail and GLB export.
+- [tripo3d-blender-aaa](https://github.com/hiddentao/tripo3d-blender-aaa-skill) - Turn concept pictures into AAA-quality 3D models and scenes that match them, with an image model for the art, Tripo3D for base meshes, Blender for the finish, and a measured pipeline that checks the final render against the concept.
 - [3d-web-scene-performance](https://github.com/hiddentao/3d-web-scene-performance-skill) - Build 3D scenes for web pages that run at 60 fps on phones, tablets and desktops, show something within five seconds on a slow connection, and fall back to a normal page if the renderer fails.
 - [sakurai](https://github.com/hiddentao/sakurai-skill-en) - Game-making principles from all 257 main episodes of Masahiro Sakurai's YouTube series "Masahiro Sakurai on Creating Games", for planning, reviewing and fixing a game. Translated into English by hiddentao from [kociden/sakurai-skill](https://github.com/kociden/sakurai-skill), which kociden wrote.
 
